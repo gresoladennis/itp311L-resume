@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #ddd;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 26px;
+    color: #4CAF50;
+    margin-top: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    transition: all 0.3s;
+}
+
+h2:hover {
+    color: #333;
+    border-color: #4CAF50;
+}
+
+/* General Section Styles */
+section {
+    margin-bottom: 30px;
+}
+
+.job, .degree {
+    margin-bottom: 20px;
+}
+
+.job h3, .degree h3 {
+    font-size: 22px;
+    margin-top: 0;
+    color: #333;
+}
+
+.job p, .degree p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+}
+
+ul li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+ul li:before {
+    content: '•';
+    position: absolute;
+    left: -18px;
+    top: 0;
+    color: #4CAF50;
+}
+
+/* Skills Grid */
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.skills li b {
+    color: #4CAF50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .skills ul {
+        grid-template-columns: 1fr;
+    }
+}
