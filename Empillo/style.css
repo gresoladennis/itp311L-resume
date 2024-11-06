@@ -1,0 +1,134 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #0f0fd4;
+    color: #301d1d;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: #00ec92;
+  }
+  
+  .header .title {
+    font-size: 24px;
+    color: #e9da07;
+    margin: 10px 0;
+  }
+  
+  .header .contact {
+    font-size: 14px;
+    color: #693030;
+    margin-top: 10px;
+  }
+  
+  /* Section Styles */
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #d20cec;
+    padding-bottom: 5px;
+  }
+  
+  .section-content {
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  .job, .education {
+    margin-top: 15px;
+  }
+  
+  .job-title, .education-degree {
+    font-size: 20px;
+    color: #2a79e0;
+  }
+  
+  .job-dates, .education-school {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .job-description {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .skills, .certifications {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 0;
+  }
+  
+  .skills li, .certifications li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Adding responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .header h1 {
+      font-size: 28px;
+    }
+  
+    .header .title {
+      font-size: 20px;
+    }
+  
+    .section-title {
+      font-size: 20px;
+    }
+  
+    .job-title, .education-degree {
+      font-size: 18px;
+    }
+  
+    .job-dates, .education-school {
+      font-size: 12px;
+    }
+  
+    .job-description li {
+      font-size: 14px;
+    }
+  
+    .skills li, .certifications li {
+      font-size: 14px;
+    }
+  }
+  
