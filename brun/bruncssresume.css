@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #0066cc;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.header h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 35%;
+    padding-right: 20px;
+    border-right: 2px solid #f0f0f0;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.sidebar p, .sidebar ul {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.content {
+    width: 65%;
+    padding-left: 20px;
+}
+
+.content h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.content strong {
+    color: #000;
+}
+
+.content .experience, .content .education, .content .projects {
+    margin-bottom: 30px;
+}
